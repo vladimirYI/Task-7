@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+    <style>
+        .form{
+            width: 250px;
+        }
+        .block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+        label {
+            display: block;
+            float: left;
+            width: 70px;
+            height: 15px;
+        }
+        .input{
+            margin-top: 20px;
+        }
+        .form__text{
+            margin-top: 20px;
+        }
+        button{
+            margin-top: 20px;
+        }
+        .btn-delete{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form class="form">
+        <div class="input">
+            <label>Ширина:</label>
+            <input class="form__width" placeholder="Ширина" type="number">
+        </div>
+        <div class="input">
+            <label>Высота:</label>
+            <input class="form__height" placeholder="Высота" type="number">
+        </div>
+        <div class="input">
+            <label>Цвет:</label>
+            <input class="form__color" placeholder="Цвет" type="text">
+        </div>
+        
+        <button class="btn-create">Создать</button>
+        <div class="text-inputs-wrapper">
+            <input class="form__text" placeholder="Текст" type="text">
+        </div>
+        <button class="btn-add" >+</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
